@@ -32,11 +32,12 @@ body {
 }
 .dark-mode {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding-top: 1em;
 }
 .checkbox {
   display: none;
+  
 }
 .checkbox:checked ~ .switch:before{
   transform: translateX(0);
